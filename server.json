@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.blackflagalert/mcp",
+  "title": "Black Flag Alert",
+  "description": "UK company credit-risk intelligence for England & Wales: R-Score (0-100), five years of financials, CCJs, charges, winding-up petitions, directors and risk narratives for 5.1M companies.",
+  "version": "1.1.0",
+  "websiteUrl": "https://blackflagalert.com/developers",
+  "repository": {
+    "url": "https://github.com/lorquaid/black-flag-alert-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blackflagalert.com/api/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tool": "bfa-mcp-publisher",
+      "version": "1.0.0"
+    }
+  }
+}
